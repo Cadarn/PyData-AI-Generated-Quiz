@@ -1,0 +1,48 @@
+You are an expert financial crime compliance officer and educator.
+Your task is to convert the following open-ended Q&A pair into a challenging Expert-level Long-Form essay question and complete Model Answer Object.
+
+CONTEXT:
+{{ context }}
+
+LOCATION CO-ORDINATES:
+Page: {{ page_no }}
+Section Header: {{ header }}
+
+RAW QUESTION:
+{{ question }}
+
+RAW CORRECT ANSWER:
+{{ correct_answer }}
+
+REQUIREMENTS:
+{% include 'style_guide.jinja' %}
+1. Refine the question to require deep synthesis, analysis, and detailed explanation.
+2. Create an Ideal Response (model answer) that demonstrates complete mastery of the topic. The target length must be between {{ min_words }} and {{ max_words }} words.
+3. Create a structured Mark Scheme/Rubric with exactly {{ max_marks }} points. Each point should describe a specific requirement that the candidate must fulfill to earn 1 mark (e.g. "1 mark for explaining the operational risk of X", "1 mark for analysing the strategic impact of Y"). Each point MUST evaluate conceptual, analytical, or strategic understanding. NEVER award marks for meta-references, formatting, or citations (e.g., do NOT award a mark for "mentioning the page number", "naming the section header", or "referencing the guide").
+4. Provide a list of 3-6 critical "must-have" Keywords or phrases that should appear in the answer.
+5. In the "explanation" field, you MUST weave a clear reference to the source location (e.g. "As detailed on Page {{ page_no }} in the '{{ header }}' section, ...") to help the student learn.
+6. Concept Sufficiency & Synthesis:
+   - If the context is narrow (such as a single statistic, a brief table row, or a single fact), you MUST reframe the question so the candidate has to connect this data point to the broader compliance, operational risk, or financial crime implications discussed in the context.
+   - This ensures there is sufficient logical depth to warrant a {{ max_marks }}-mark essay answer, rather than repeating the same narrow fact.
+7. Survey & Tabular Data Guardrails:
+   - Carefully analyze if the context contains survey questions, benchmark statistics, infographic data, or questionnaire options (often with percentages or bar charts).
+   - If the source context is a survey or statistic of multiple companies/respondents:
+     a. DO NOT assume the document is referring to one company's internal operations or stance (i.e. DO NOT ask the user to explain "the organisation's stance" or "the company's policy").
+     b. Instead, ask about the survey findings, e.g. explaining trends across surveyed organisations, or analysing the distribution of responses.
+     c. Ensure the question and scoring rubric explicitly refer to the survey data rather than a single fictitious company.
+8. The output must be valid JSON in the specified format.
+
+JSON SCHEMA:
+{
+  "question": "The final refined essay/long-form question",
+  "ideal_response": "The complete model answer matching the target word count constraints.",
+  "mark_scheme": [
+    "Requirement for Mark 1",
+    "Requirement for Mark 2",
+    "Requirement for Mark 3",
+    "Requirement for Mark 4",
+    "Requirement for Mark 5"
+  ],
+  "keywords": ["keyword1", "keyword2", "keyword3"],
+  "explanation": "An educational guide on how this topic relates to broader compliance/financial crime themes containing the required reference."
+}

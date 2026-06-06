@@ -1,0 +1,15 @@
+# Configuration for rag-quizzer generation
+model_name: "gpt-4o-mini"
+output_path: "data/generated/quiz_questions.json"
+pdf_path: "data/documents/SoFC26_Guide.pdf"
+
+question_types:
+  mcq:
+    count: 20  # Keeping counts realistic to avoid high API usage / timeouts
+    distractor_count: 3
+  long_form:
+    count: 10
+    max_marks: 5
+    target_length_min: 50       # words
+    target_length_max: 200      # words
+    rubric_detail: "concise"    # choices: concise, detailed
