@@ -1,0 +1,722 @@
+{
+  "mcq": [
+    {
+      "question": "What are the key provisions of Law No. 2025-391 concerning the pledging of crypto-assets in France?",
+      "options": [
+        "Rules on enforceability and publicity",
+        "Regulations on digital asset taxation",
+        "Guidelines for crypto-asset trading platforms",
+        "Standards for blockchain technology use"
+      ],
+      "correct": "Rules on enforceability and publicity",
+      "explanation": "As outlined on Page [114] in the 'Crypto' section, Law No. 2025-391 establishes a legal framework for pledging crypto-assets, including rules on enforceability and publicity.",
+      "reference": {
+        "page_numbers": [
+          114
+        ],
+        "section": "Crypto",
+        "element_types": [
+          "text"
+        ],
+        "source_snippet": "The French government passed a law establishing a legal regime for the pledging of crypto-assets to allow them to be used as collateral, which is not covered by MiCA. Law No. 2025-391 is codified in the French Monetary and Financial Code. It includes rules on enforceability, publicity, and the right of pledges."
+      }
+    },
+    {
+      "question": "What is the organisation's current stance on analysing exposure to organised crime?",
+      "options": [
+        "Plans to analyse exposure in the future",
+        "Currently analysing organised crime exposure",
+        "No current analysis or future plans",
+        "Conducting periodic reviews of crime exposure"
+      ],
+      "correct": "No current analysis or future plans",
+      "explanation": "As outlined on Page [18, 19] in the 'Does your organization include a detailed analysis of its exposure to organized crime activities in its organization-wide risk assessment?' section, the organisation does not currently analyse its exposure and has no future plans to do so.",
+      "reference": {
+        "page_numbers": [
+          18,
+          19
+        ],
+        "section": "Does your organization include a detailed analysis of its exposure to organized crime activities in its organization-wide risk assessment?",
+        "element_types": [
+          "text"
+        ],
+        "source_snippet": "No, we do not do this currently and have no\n\nplans to do so\n\n1727942\n\n727990\n\n2495\n\nLG 04727922\n\nG7\n\nF. Gaith\n\nTresser of the Unleil Sunn\n\nCRANKEN 7\n\n'"
+      }
+    },
+    {
+      "question": "How can regulatory changes benefit financial crime risk management in firms?",
+      "options": [
+        "Encourage staff training and development",
+        "Upgrade legacy systems and streamline processes",
+        "Increase compliance costs and administrative burden",
+        "Limit innovation and adaptability in operations"
+      ],
+      "correct": "Upgrade legacy systems and streamline processes",
+      "explanation": "As outlined on Page [125, 126] in the 'What does this mean for my firm?' section, regulatory changes can prompt firms to modernise their systems and processes, enhancing their financial crime risk management capabilities.",
+      "reference": {
+        "page_numbers": [
+          125,
+          126
+        ],
+        "section": "What does this mean for my firm?",
+        "element_types": [
+          "text"
+        ],
+        "source_snippet": "Regulatory change, while challenging, can serve as a catalyst for firms to modernize legacy systems, streamline inefficient processes, and enhance their overall financial crime risk management capabilities.\n\n'\n\nAn innovation-focused approach:\n\nadapting as needed"
+      }
+    },
+    {
+      "question": "What does the Wolfsberg Group's guidance emphasise for banks?",
+      "options": [
+        "Updating controls against evolving threats",
+        "Minimising costs for compliance",
+        "Focusing solely on banking sector issues",
+        "Ignoring updates from other sectors"
+      ],
+      "correct": "Updating controls against evolving threats",
+      "explanation": "As outlined on Page [102] in the 'Wolfsberg Group' section, the guidance stresses the importance of staying updated with evolving threats and implementing robust controls.",
+      "reference": {
+        "page_numbers": [
+          102
+        ],
+        "section": "Wolfsberg Group",
+        "element_types": [
+          "text"
+        ],
+        "source_snippet": "' The Wolfsberg Group, comprising twelve of the world's systemically important banks, will continue to issue updated guidance and resources for banks to follow. It is strongly recommended that financial institutions review developments and that firms operating in other sectors also review Wolfberg Group updates to inform the development of their own internal AML/CFT systems and controls.\n\nIn 2025, the Wolfsberg Group issued the following guidance and statements:\n\n'\n\nTechnology is evolving so rapidly, but so are the fraudsters, and they don't care. It's really important as a business that we do care, and we take the necessary steps that we need to. Yes, it's going to cost more in the short term, but in the long term, if you're improving customer experiences, building customer trust, building the reputation of your brand, these are all great things.\n\n'"
+      }
+    },
+    {
+      "question": "What actions did the EU and UK take against Chinese businesses amid sanctions on Russia and Iran?",
+      "options": [
+        "Targeted Chinese businesses implicated in sanctions",
+        "Accused the Chinese government directly",
+        "Imposed tariffs on all Chinese imports",
+        "Banned all Chinese investments in Europe"
+      ],
+      "correct": "Targeted Chinese businesses implicated in sanctions",
+      "explanation": "As outlined on Page [75] in the 'Asia Pacific' section, the EU and UK focused on private Chinese businesses linked to sanctions against Russia and Iran, without directly accusing the Chinese government.",
+      "reference": {
+        "page_numbers": [
+          75
+        ],
+        "section": "Asia Pacific",
+        "element_types": [
+          "text"
+        ],
+        "source_snippet": "Beyond the US, the EU, UK, Canada, Australia, and other countries took a relatively circumspect approach to China, taking little targeted action against Chinese state actors. Instead, as noted in previous sections, these states increasingly targeted private Chinese businesses and businesspeople whom they implicated in Russian and Iranian sanctions. While the EU and UK did not explicitly point the finger at the Chinese government in these instances, they highlighted and targeted Chinese companies, along with other third-country private-sector enablers, in various sanctions packages across the year."
+      }
+    },
+    {
+      "question": "What are emerging tactics in cyber fraud that impact digital security?",
+      "options": [
+        "Use of artificial intelligence in fraud",
+        "Basic password protection measures",
+        "Traditional cheque fraud schemes",
+        "Social media account hacking"
+      ],
+      "correct": "Use of artificial intelligence in fraud",
+      "explanation": "As outlined on Page [27] in the 'Cyber fraud trends' section, emerging tactics include sophisticated phishing schemes and the use of artificial intelligence to automate fraud processes.",
+      "reference": {
+        "page_numbers": [
+          27
+        ],
+        "section": "Cyber fraud trends",
+        "element_types": [
+          "text"
+        ],
+        "source_snippet": "The modern cyber fraud environment displays several key traits."
+      }
+    },
+    {
+      "question": "What is the main objective of public-private intelligence sharing forums?",
+      "options": [
+        "Enhance collaboration between law enforcement and banks",
+        "Facilitate direct information sharing for actionable intelligence",
+        "Increase the number of financial transactions monitored",
+        "Improve public awareness of financial crimes"
+      ],
+      "correct": "Facilitate direct information sharing for actionable intelligence",
+      "explanation": "As outlined on Page [137] in the 'The public-private imperative' section, the main objective is to enhance the quantity and quality of actionable intelligence through direct information sharing.",
+      "reference": {
+        "page_numbers": [
+          137
+        ],
+        "section": "The public-private imperative",
+        "element_types": [
+          "text"
+        ],
+        "source_snippet": "Countries will continue to establish public-private intelligence sharing forums to facilitate information sharing through more direct channels, thereby increasing the quantity and quality of actionable intelligence. The UK's novel National Crime Agency (NCA) data sharing partnership will continue to see UK banks carrying out joint analysis with banking employees seconded to the NCA, working alongside NCA analysts. The initiative brings together targeted bank transaction data and crime-related datasets to identify real-time data insights to identify the"
+      }
+    },
+    {
+      "question": "How would an earlier AMLR deadline impact compliance strategies?",
+      "options": [
+        "Increased focus on cash payment limits",
+        "Accelerated compliance strategy implementation",
+        "Delayed appointment of compliance managers",
+        "Reduced investment in compliance infrastructure"
+      ],
+      "correct": "Accelerated compliance strategy implementation",
+      "explanation": "As outlined on Page [110] in the '2. AML regulation' section, an earlier deadline would necessitate a rapid escalation in compliance efforts across affected sectors.",
+      "reference": {
+        "page_numbers": [
+          110
+        ],
+        "section": "2. AML regulation",
+        "element_types": [
+          "text"
+        ],
+        "source_snippet": "Obliged entities will need to ensure that they are compliant with the AMLR by July 1, 2027. Sectors that will be covered by AML/CFT regulations now include: crypto-asset service providers, crowdfunding platforms, certain types of intermediaries, professional football clubs and agents, dealers in precious stones and metals, dealers in high value goods, and legal professionals facilitating certain higher risk transactions, non-financial mixed activity holding companies, trust and company service providers, and investment migration operators. Traders in ordinary goods will no longer be included. Additional changes include: the need to appoint a board-level AML compliance manager, separate to an AML compliance manager, to promote senior management responsibility and the need to have groupwide policies and procedures; clarification of outsourcing arrangements; application of limits of cash payments to €10,000; the requirement to have in place sanctions compliance programmes; harmonized identification and verification requirements; expanded simplified due diligence and enhanced due diligence (EDD) measures; application of customer due diligence (CDD) requirements for transactions over €10,000; and a requirement for CDD refresh for customers at least every 5 years."
+      }
+    },
+    {
+      "question": "How do the financial impacts of cybercrime compare to those of illicit use of DeFi?",
+      "options": [
+        "Cybercrime drains 10-15% of global GDP",
+        "DeFi illicit use has minimal financial impact",
+        "Cybercrime poses less risk than DeFi",
+        "DeFi illicit use results in direct losses"
+      ],
+      "correct": "Cybercrime drains 10-15% of global GDP",
+      "explanation": "As outlined on Page [6] in the 'financial crimes drained between 10-15% of global GDP and generated a 'direct loss of trillions of dollars annually.' section, cybercrime has a more established financial impact compared to DeFi.",
+      "reference": {
+        "page_numbers": [
+          6
+        ],
+        "section": "financial crimes drained between 10-15% of global GDP and generated a 'direct loss of trillions of dollars annually.'",
+        "element_types": [
+          "text"
+        ],
+        "source_snippet": "The rapid evolution of these threats has left those on the front lines of defense in a state of heightened alert. Our global survey of 600 senior compliance professionals confirms that these industry-wide concerns are translating into specific, urgent demands for clarity. When asked which areas of underlying crime they would like to see more guidance on, 54% said more information on cybercrime and privacy and 33% wanted more guidance on the Illicit use of decentralized finance (DeFi) to mitigate complex digital risks. While many financial crime risk and compliance professionals are aware of the potential of new technology to enhance the effectiveness of their work, they are also acutely aware that, as 2026 dawns, the conditions for a further boom in technologically enabled crime are rapidly developing."
+      }
+    },
+    {
+      "question": "What impact could intensified UK sanctions on Russian enablers have on global trade?",
+      "options": [
+        "Increased availability of Russian goods",
+        "Enhanced cooperation with Russian businesses",
+        "Disruption of global trade dynamics",
+        "Strengthened trade relationships with Russia"
+      ],
+      "correct": "Disruption of global trade dynamics",
+      "explanation": "As outlined on Page [67] in the 'UK measures' section, intensified sanctions could significantly disrupt trade by reducing the availability of Russian goods and services.",
+      "reference": {
+        "page_numbers": [
+          67
+        ],
+        "section": "UK measures",
+        "element_types": [
+          "text"
+        ],
+        "source_snippet": "The UK also joined wider efforts to degrade Russia's sanctions evasion machinery, especially its shadow fleet. Like the EU, the UK targeted multiple vessels throughout the year, with over 500 listed by November. The UK also sought to target the ecosystem of Russian enablers, intermediaries, and buyers behind the fleet. Notable examples included John Michael Ormerod, a British national alleged to procure vessels for the fleet; Intershipping Services, responsible for registering tankers under the Gabonese 'flag of convenience'; Orion Star Group, which helped crew and manage vessels; and financial institutions such as the St Petersburg Currency Exchange and the Russian Deposit Insurance Agency, which provided insurance services for vessels. Furthermore, the UK took several steps to counter Russia's financial sanctions evasion machinery in Central Asia. In February, this included the UK joining the US in listing Keremet Bank. In August, a network of other Kyrgyz-based financial entities and individuals, including Capital Bank, its director, Kantemir Chalbayev, and cryptocurrency exchanges Grinex and Meer, was targeted, with the key infrastructure being the A7A5 stablecoin."
+      }
+    },
+    {
+      "question": "What characterised the hybrid attacks on European nations by Russia in 2025?",
+      "options": [
+        "Cyber warfare and economic sanctions",
+        "Conventional military threats and disinformation",
+        "Increased diplomatic relations and trade agreements",
+        "Humanitarian aid and public support initiatives"
+      ],
+      "correct": "Conventional military threats and disinformation",
+      "explanation": "As outlined on Page [59] in the 'Russia's hybrid campaign' section, the hybrid attacks involved a mix of military threats, cyber warfare, and disinformation aimed at destabilising European nations.",
+      "reference": {
+        "page_numbers": [
+          59
+        ],
+        "section": "Russia's hybrid campaign",
+        "element_types": [
+          "text"
+        ],
+        "source_snippet": "Furthermore, Ukraine was not the only state to face significant external pressure from Russia in 2025. Various European countries faced so-called 'hybrid' or 'greyzone' attacks, which most expert observers assessed to have been sponsored by Russia."
+      }
+    },
+    {
+      "question": "What does FinCEN seek to understand from the NBFI compliance cost survey?",
+      "options": [
+        "Direct costs of AML/CFT compliance",
+        "Consumer behaviour towards financial products",
+        "Impact of technology on compliance",
+        "Trends in financial crime activities"
+      ],
+      "correct": "Direct costs of AML/CFT compliance",
+      "explanation": "As outlined on Page [105] in the 'Non-bank financial institutions (NBFIs)' section, FinCEN aims to gather insights into the direct costs faced by NBFIs for AML/CFT compliance.",
+      "reference": {
+        "page_numbers": [
+          105
+        ],
+        "section": "Non-bank financial institutions (NBFIs)",
+        "element_types": [
+          "text"
+        ],
+        "source_snippet": "FinCEN is expected to publish results from its Survey of the Costs of AML/CFT Compliance, which closed in December 2025. The survey was developed to gather information on the direct costs faced by non-bank financial institutions (NBFIs) to advance deregulatory proposals 'to reduce compliance burden without compromising the effectiveness of current AML/CFT frameworks.' NBFIs covered include: casinos and card clubs (casinos); money services businesses (MSBs); insurance companies; dealers in precious metals, precious stones, or jewels (PMSJs); operators of credit card systems; and loan or finance companies."
+      }
+    },
+    {
+      "question": "How do US sanctions against Iran's financial networks differ from actions against cryptocurrency abuse?",
+      "options": [
+        "Focus on designated individuals and entities",
+        "Target cryptocurrency exchanges exclusively",
+        "Concentrate on oil sales only",
+        "Emphasise international collaboration efforts"
+      ],
+      "correct": "Focus on designated individuals and entities",
+      "explanation": "As outlined on Page [54] in the 'Other sanctions against Iran: The US' section, US sanctions target individuals and entities circumventing payment systems, while actions against cryptocurrency abuse focus on laundering funds through digital currencies.",
+      "reference": {
+        "page_numbers": [
+          54
+        ],
+        "section": "Other sanctions against Iran: The US",
+        "element_types": [
+          "text"
+        ],
+        "source_snippet": "Notable examples included the June designations of three Iranian nationals - the Zarringhalams - who were alleged to manage a network of exchange houses in Iran and front companies in the UAE and Hong Kong. The US also expanded its actions against Iran's attempts to work around the existing international payments infrastructure, designating Iran's RUNC Exchange System Company and its involvement in the development of the Cross-Border Interbank Messaging System (CIMS), a transactional messaging system designed to help Iran work around its ban from the global SWIFT payments messaging system. The US also acted against Iranian abuse of cryptocurrencies, designating in September two Iranian facilitators, Alireza Derakhshan and Arash Estaki Alivand, who purchased over $100 million in cryptocurrency as part of a scheme to launder funds from Iranian oil sales."
+      }
+    },
+    {
+      "question": "What specific challenges do MLaaS networks create for effective financial monitoring?",
+      "options": [
+        "Fragmentation of data across institutions",
+        "Static monitoring frameworks for quick changes",
+        "Limited visibility of overall financial activity",
+        "Increased regulatory compliance costs"
+      ],
+      "correct": "Fragmentation of data across institutions",
+      "explanation": "As outlined on Page [39] in the 'The MLaaS challenge' section, MLaaS networks fragment flows across various institutions, making it difficult to identify critical red flags.",
+      "reference": {
+        "page_numbers": [
+          39
+        ],
+        "section": "The MLaaS challenge",
+        "element_types": [
+          "text"
+        ],
+        "source_snippet": "Third, MLaaS networks expertly fragment their flows across financial institutions, business lines, product types and countries with the specific aim of undermining traditional monitoring. One institution sees only a sliver of the story, and the red flags that matter - circularity and cross-border connectivity only become visible when multiple datasets are brought together. However, a large portion of regulated firms are not seeing that broader landscape; indeed, even within a single business, relevant risk teams can be highly fragmented, as noted previously.\n\nFourth, the speed of the modern financial system is a basic challenge in all circumstances. Payments move quickly, as we discussed in our discussion of cyber fraud. But criminal typologies change rapidly too, and the more potential laundering 'modules' that a professional network has at its disposal, the easier it is for them to change their patterns of behavior 'on the fly.' Static, rule-based transaction monitoring frameworks that get changed only periodically are poorly matched to adversaries who can test, learn, and redeploy tactics in days."
+      }
+    },
+    {
+      "question": "What is the estimated annual revenue generated by cyber-enabled human trafficking?",
+      "options": [
+        "$44 billion",
+        "$22 billion",
+        "$10 billion",
+        "$30 billion"
+      ],
+      "correct": "$44 billion",
+      "explanation": "As outlined on Page [42, 43] in the 'Human trafficking: A critical financial crime risk' section, cyber-enabled human trafficking generates an estimated $44 billion annually.",
+      "reference": {
+        "page_numbers": [
+          42,
+          43
+        ],
+        "section": "Human trafficking: A critical financial crime risk",
+        "element_types": [
+          "text"
+        ],
+        "source_snippet": "their crimes, exploitation can be prevented before it occurs.\n\n50m\n\n$44bn\n\nPEOPLE ARE HELD IN\n\nMODERN SLAVERY GLOBALLY\n\nGENERATED ANNUALLY BY\n\nCYBER SCAM COMPOUNDS"
+      }
+    },
+    {
+      "question": "What factors could have led to a more lasting truce between Israel and Hamas?",
+      "options": [
+        "Increased diplomatic engagement from key states",
+        "Stronger military presence in the region",
+        "Heightened media coverage of the conflict",
+        "Withdrawal of international mediation efforts"
+      ],
+      "correct": "Increased diplomatic engagement from key states",
+      "explanation": "As outlined on Page [46, 47] in the 'The Middle East: Israel versus 'The Axis of Resistance'' section, increased diplomatic engagement from the US and Arab states could have fostered a stronger commitment to mediation, promoting a lasting truce.",
+      "reference": {
+        "page_numbers": [
+          46,
+          47
+        ],
+        "section": "The Middle East: Israel versus 'The Axis of Resistance'",
+        "element_types": [
+          "text"
+        ],
+        "source_snippet": "Outside pressure from the US and Arab states, including Jordan, Egypt, and Qatar, initially led to a limited truce agreed between Israel and Hamas. Starting on January 19, the ceasefire brought about a period of de-escalation in Gaza, several rounds of hostage exchanges, and the delivery of some humanitarian supplies. However, amid claims of violations from both sides, the deal collapsed on March 18, when widespread Israeli airstrikes took place across Gaza.\n\nAlthough negotiations resumed in the summer, progress proved difficult, and the talks came close to collapse in the wake of an unprecedented Israeli airstrike on Hamas's political leadership in Doha, Qatar, on September 9. Qatar, the US, and others remained committed to mediation, however, and a month later, on October 9, Israel and Hamas agreed on a further phased ceasefire and hostage-release schedule at Sharm el-Sheikh in Egypt. As the year ended, the truce continued in theory. However, its implementation remained highly uneven, with both sides claiming that the other had infringed the deal's terms."
+      }
+    },
+    {
+      "question": "What is the role of GenAI in 'sextortion' and extortion methods?",
+      "options": [
+        "Creates fake evidence for blackmail",
+        "Develops negotiation scripts for criminals",
+        "Targets adult victims primarily",
+        "Facilitates physical kidnappings"
+      ],
+      "correct": "Creates fake evidence for blackmail",
+      "explanation": "As outlined on Page [10] in the 'GenAI, extortion, and ransomware' section, GenAI significantly influences 'sextortion' by enabling the creation of realistic faked content to blackmail victims.",
+      "reference": {
+        "page_numbers": [
+          10
+        ],
+        "section": "GenAI, extortion, and ransomware",
+        "element_types": [
+          "text"
+        ],
+        "source_snippet": "In parallel, GenAI has begun to reshape the practice of extortion. As FinCEN reported in a notice issued in September 2025, 'sextortion' - the use of faked sexually explicit images, audio, and video to blackmail innocent victims - has boomed in recent years, with teenage boys a particular target in the US. GenAI-generated material has also created opportunities for criminals to develop new styles of extortion, such as 'virtual kidnappings,' where an individual's voice and image are cloned and sent to unsuspecting families to demonstrate that the individual is in imminent danger, and that a ransom needs to be paid quickly to ensure their safety. Along with fabricating evidence of threat, GenAI can also be used to craft negotiation scripts to manipulate the targets."
+      }
+    },
+    {
+      "question": "What characterises the MLaaS landscape in relation to service providers and clientele?",
+      "options": [
+        "Focus on local criminals only",
+        "Limited services for large enterprises",
+        "Diverse providers catering to various clients",
+        "Exclusively for transnational organised crime"
+      ],
+      "correct": "Diverse providers catering to various clients",
+      "explanation": "As outlined on Page [33] in the 'The MLaaS landscape' section, the MLaaS landscape features a variety of service providers that cater to a broad spectrum of clientele, including both small-time criminals and large transnational organised crime groups.",
+      "reference": {
+        "page_numbers": [
+          33
+        ],
+        "section": "The MLaaS landscape",
+        "element_types": [
+          "text"
+        ],
+        "source_snippet": "The result is thus a layered, hybridized service economy, ranging from small-scale facilitators and networks to extensive and growing international enterprises. Each provider will offer its own 'menu' of services, depending on its size and technical knowledge, ranging from independents focusing on placement and layering to 'one-stop shops' that provide end-to-end services to crypto launderers who add a 'plug-in' element within a larger laundering chain. Given the range and diversity of service providers, they can also have a broad spectrum of customers, from small-time criminals working with local independents to massive transnational OCGs seeking a full suite of services. At present, the most significant focus in law enforcement and regulatory circles is on the connection between Mexican cartels and CMLNs, with the former increasingly outsourcing their laundering needs to the latter. However, CMLNs have also been rising in prominence in Europe, as noted in recent research from the think tank RUSI; CMLNs are willing to work with a broad spectrum of clients, regardless of nationality, as long as there is a clear business case for doing so. However, other groups of professional launderers are also gaining wider attention. The groups running Southeast Asian scam centers, for instance, appear to be offering their own crypto-laundering infrastructure to other criminal and state actors, including North Korean hackers."
+      }
+    },
+    {
+      "question": "What concerns did Western observers have about Trump's Russian sanctions policy?",
+      "options": [
+        "Potential unilateral lifting of sanctions",
+        "Increased military support for Ukraine",
+        "Stronger collaboration with EU sanctions",
+        "Reduction of tariffs on Russian imports"
+      ],
+      "correct": "Potential unilateral lifting of sanctions",
+      "explanation": "As outlined on Page [63] in the 'US measures' section, Western observers worried that Trump's return could lead to a significant shift in US sanctions policy, particularly regarding the possibility of lifting sanctions to gain favour with Putin.",
+      "reference": {
+        "page_numbers": [
+          63
+        ],
+        "section": "US measures",
+        "element_types": [
+          "text"
+        ],
+        "source_snippet": "Many Western observers worried that the return of President Trump in January would herald a radical new approach to Russian sanctions, with concerns that the President might unilaterally lift sanctions to curry favor with Putin. Indeed, throughout the year, there were signs of a new moderation in the US approach, with the US rejecting proposals in the spring to join the EU, the UK, and others in reducing the oil price, and removing sanctions on Karina Rotenberg, the wife of Russian oligarch Boris Rotenberg, in March. Despite President Trump's shifting attitudes, however, the US did not lift any significant sanctions in 2025. Indeed, at various points, Trump mused about imposing 'massive sanctions or massive tariffs, or both' on Russia to encourage flexibility in negotiations. As the year progressed, the US continued to take targeted measures against Russia's energy revenues, its sanctions evasion network, and its financial assets."
+      }
+    },
+    {
+      "question": "What methods do sanctioned states use to obscure illicit fund transfers?",
+      "options": [
+        "Utilisation of offshore tax havens",
+        "Complex networks including cryptocurrency and Hawala",
+        "Relying solely on cash transactions",
+        "Direct transfers through international banks"
+      ],
+      "correct": "Complex networks including cryptocurrency and Hawala",
+      "explanation": "As outlined on Page [91] in the 'Opaque financial structures' section, sanctioned states employ intricate financial networks that combine traditional banking, informal methods like Hawala, and cryptocurrency to conceal illicit fund transfers.",
+      "reference": {
+        "page_numbers": [
+          91
+        ],
+        "section": "Opaque financial structures",
+        "element_types": [
+          "text"
+        ],
+        "source_snippet": "To receive funds generated from illicit commodity sales and then to use them for procurement, sanctioned states need to apply financial techniques that do not bring them to the attention of financial institutions, unwitting businesses, law enforcement, or regulators. Increasingly, these financial structures utilize a combination of traditional banking payment rails, informal value transfer systems such as Hawala, which do not involve cross-border fund transfers, and more novel channels like cryptocurrency. Russia still relies heavily on routing funds through multiple correspondent banks to conceal their origin from international financial institutions, but has also developed an informal payments system known as the 'China Track,' where sanctioned Russian banks send and receive payments with Chinese banks via intermediary payment agents in third countries. Iran makes particular use of money exchange houses in the Middle East - businesses that specialize in converting and exchanging currencies - to create complex, layered processes in which illicit funds are routed from exchange houses to regional and national banks, and then through major financial institutions with international correspondent accounts, to get to their intended destination. North Korea, in contrast, maintains a network of foreignbased banking representatives for its sanctioned banks, individuals typically operating under false identities who manage payments through accounts held at Chinese and Russian financial institutions. It should be noted, however, that cryptocurrency is playing an increasingly important role in the financial architecture of sanctions evasion. In its 2025 report, blockchain analytics firm Chainalysis found that in 2024, sanctioned jurisdictions and entities received $15.8 billion in cryptocurrency, accounting for approximately 39% of all illicit crypto transactions. Both Russia and Iran are showing growing signs of adopting crypto to work around the international financial system. Still, at present, the most sophisticated actor remains North Korea, which uses chainhopping (rapidly moving funds across multiple blockchains) and rapid liquidations of funds via small or lightly regulated exchanges in offshore jurisdictions."
+      }
+    }
+  ],
+  "long_form": [
+    {
+      "question": "Critically analyse the implications of the Tranche 2 AML/CFT reforms in Australia, focusing on the requirements for ML/TF risk assessments and KYC processes. How do these reforms enhance compliance and mitigate risks across the newly designated sectors?",
+      "ideal_response": "The Tranche 2 AML/CFT reforms in Australia significantly enhance compliance measures by mandating firms to conduct comprehensive ML/TF risk assessments and implement rigorous KYC processes. These reforms require firms to identify newly designated services, ensuring that they adapt their operations to meet heightened regulatory expectations. The initial customer due diligence (ICDD) mandates the collection of detailed KYC information, including data on customers, their representatives, beneficiaries, and beneficial owners, thus fostering a more robust understanding of client relationships. By formalising policies and updating staff roles, firms can better equip their employees to identify and manage risks effectively. The inclusion of sectors such as real estate, accounting, and virtual assets under these reforms reflects a proactive approach to combatting financial crime, aligning with global best practices. As detailed on Page [120] in the 'Firms will need to comply with enhanced AML/CFT measures in Australia to mitigate and manage ML/TF risks and meet global best practice.' section, these measures are crucial for fostering a secure financial environment.",
+      "mark_scheme": [
+        "1 mark for identifying the requirement for ML/TF risk assessments.",
+        "1 mark for explaining the importance of KYC processes and initial customer due diligence (ICDD).",
+        "1 mark for discussing the formalisation of policies and staff training.",
+        "1 mark for analysing the impact of these reforms on newly designated sectors.",
+        "1 mark for connecting the reforms to broader global compliance standards."
+      ],
+      "keywords": [
+        "AML/CFT reforms",
+        "risk assessment",
+        "KYC processes",
+        "compliance measures",
+        "financial crime"
+      ],
+      "explanation": "The Tranche 2 AML/CFT reforms represent a critical evolution in Australia's approach to financial crime compliance, emphasising the need for thorough risk assessments and KYC processes. As detailed on Page [120] in the 'Firms will need to comply with enhanced AML/CFT measures in Australia to mitigate and manage ML/TF risks and meet global best practice.' section, these reforms are designed to align with international standards, thereby enhancing the integrity of the financial system and protecting it from exploitation by criminals.",
+      "reference": {
+        "page_numbers": [
+          120
+        ],
+        "section": "Firms will need to comply with enhanced AML/ CFT measures in Australia to mitigate and manage ML/TF risks and meet global best practice.",
+        "element_types": [
+          "text"
+        ],
+        "source_snippet": "At long last, the implemented Tranche 2 reforms have been issued under the Anti-Money Laundering and Counter-Terrorism Financing Rules 2025 (the New AML Rules) and updated Anti-Money Laundering and Counter-Terrorism Financing Act 2006 (the Act) and the Anti-Money Laundering and Counter-Terrorism Financing (Class Exemptions and Other Matters) Rules 2007 (Class Exemption Rules). Australia has opted for a staggered implementation with changes coming into effect as follows:\n\nChanges require firms to draft an ML/TF risk assessment and identify if they offer any of the newly designated services. Additional updates include carrying out initial customer due diligence (ICDD), collecting a minimum amount of KYC information - including for persons acting on behalf of a customer, beneficiaries, and beneficial owners - and topping it up as required by the risk-based approach. It does not include 'safe harbors' for sources deemed to be reliable and independent, and simplified due diligence requirements are softer.\n\nThey must also formalize policies and procedures, ensuring that staff roles and responsibilities are updated and that all relevant employees are appropriately trained. Tranche 2 sectors now covered by the rule include real estate, accounting, legal, trust and company services, precious metals and stones, and virtual assets."
+      }
+    },
+    {
+      "question": "Critically analyse the differing responses of the Biden and Trump administrations to the International Criminal Court's arrest warrants for Israeli leaders, focusing on the implications of these responses for international law and US foreign policy.",
+      "ideal_response": "The responses of the Biden and Trump administrations to the ICC's arrest warrants for Israeli leaders illustrate a stark contrast in approach to international law and US foreign policy. Biden's administration characterised the warrants as 'outrageous', reflecting a commitment to diplomatic rhetoric without imposing direct punitive measures. This approach, while critical, maintained a level of engagement with international legal frameworks. In contrast, Trump's administration adopted a more aggressive stance by issuing an Executive Order that enabled sanctions against ICC officials, including the Chief Prosecutor. This marked a significant escalation in US opposition to the ICC, aligning with Trump's previous actions against the court during his first term. The implications of these divergent responses highlight the complexities of US-Israel relations and the broader challenges of enforcing international law, as detailed on Page [50] in the 'The question of Israel' section.",
+      "mark_scheme": [
+        "1 mark for identifying the contrasting responses of Biden and Trump to the ICC's warrants.",
+        "1 mark for explaining Biden's diplomatic approach and lack of punitive action.",
+        "1 mark for detailing Trump's Executive Order and the scope of sanctions imposed.",
+        "1 mark for analysing the implications of these responses on international law.",
+        "1 mark for discussing the broader impact on US foreign policy and US-Israel relations."
+      ],
+      "keywords": [
+        "Biden administration",
+        "Trump administration",
+        "ICC",
+        "sanctions",
+        "international law"
+      ],
+      "explanation": "This topic underscores the intricate relationship between national responses to international legal actions and the broader implications for compliance and financial crime. As detailed on Page [50] in the 'The question of Israel' section, the contrasting approaches of the Biden and Trump administrations reveal how political leadership can influence the enforcement of international norms, which is crucial for understanding compliance frameworks in a global context.",
+      "reference": {
+        "page_numbers": [
+          50
+        ],
+        "section": "The question of Israel",
+        "element_types": [
+          "text"
+        ],
+        "source_snippet": "The most significant state holding out against criticism of Israel remained the US. The decision of the ICC in November 2024 to issue arrest warrants for Israeli Prime Minister Benjamin Netanyahu and former defense minister Yoav Gallant had been declared 'outrageous' by then-President Joe Biden (neither the US nor Israel are members of the court). His successor had a similar, but more confrontational, response: in February 2025, President Trump issued an Executive Order granting him the power to impose sanctions on members of the ICC itself, declaring that the warrants against the Israeli leaders exceeded the court's legitimate authority. The ICC Chief Prosecutor, Karim Khan, was designated as a first step, to be followed by two deputy prosecutors, six presiding judges, the UN Human Rights Council's Special Rapporteur on Palestine, and several non-governmental organizations (NGOs) working with the court on Palestinian issues. These moves were very much in keeping with past Trump actions - in his first term, he had imposed sanctions on senior ICC figures investigating alleged US war crimes in Afghanistan - but this time, the measures were more comprehensive in scope; indeed, in September, US media outlets suggested that there was a genuine possibility that the Trump administration might sanction the ICC as an entity in its own right."
+      }
+    },
+    {
+      "question": "Critically analyse the challenges posed by advancements in artificial intelligence for regulated businesses in the financial sector, and compare these challenges to the advantages exploited by criminals. In your response, consider the implications of AI in compliance and the evolving landscape of financial crime.",
+      "ideal_response": "The challenges posed by advancements in artificial intelligence (AI) for regulated businesses in the financial sector are profound. These organisations must navigate a labyrinth of complex regulations, governance frameworks, and organisational structures while simultaneously combating increasingly sophisticated criminal tactics that leverage AI. In contrast, criminals face fewer constraints, allowing them to rapidly optimise their methods and automate complex attacks, thus exploiting vulnerabilities in the financial system. As detailed on Page [14, 15] in the 'Glossary' section, this disparity creates a daunting landscape for regulated businesses, which must not only adopt AI technologies to enhance their compliance programmes but also anticipate and counteract the evolving threats posed by AI-driven financial crimes. The necessity for a proactive approach in integrating AI into compliance frameworks is underscored by the recognition that 88% of organisations believe it significantly increases their chances of securing resources against these challenges.",
+      "mark_scheme": [
+        "1 mark for identifying the complex regulatory environment faced by regulated businesses.",
+        "1 mark for explaining the advantages criminals have due to fewer constraints.",
+        "1 mark for discussing the implications of AI on compliance programmes.",
+        "1 mark for analysing the evolving nature of financial crime in relation to AI.",
+        "1 mark for referencing the source location (Page [14, 15]) in the explanation."
+      ],
+      "keywords": [
+        "artificial intelligence",
+        "financial crime",
+        "compliance",
+        "regulations",
+        "criminal tactics"
+      ],
+      "explanation": "The interplay between AI advancements and financial crime presents a complex challenge for regulated businesses, as highlighted in the 'Glossary' section on Page [14, 15]. The need for organisations to modernise their compliance frameworks is critical in an environment where criminals leverage AI to enhance their operational efficiency. Understanding this dynamic is essential for professionals in the field of financial crime compliance.",
+      "reference": {
+        "page_numbers": [
+          14,
+          15
+        ],
+        "section": "Glossary",
+        "element_types": [
+          "text"
+        ],
+        "source_snippet": "And this does not even consider the issue of quality. As GenAI develops, LLMs will produce more convincing synthetic identities, more impressive business documentation, and more complex fraud and money laundering typologies. Add to this the development of agentic AI, which will act, learn, and react with growing autonomy, as well as predictive AI, which probabilistically models the most effective typology; the prospect for regulated businesses is daunting. Nor is this science fiction: the World Economic Forum (WEF), the UK's National Cyber Security Centre (NCSC), and Europol, the combination of different elements within a growing AI stack, will provide criminals and other bad actors with the capability to automate complex, rapid attack chains across a variety of domains, including financial crime. Nor will this be a static problem, as criminals rapidly seek to optimize performance, unencumbered, as businesses will be, by constraints such as organizational structures, costs, governance, and regulations. However, the industry is highly motivated to overcome these challenges, recognizing that AI adoption is necessary to keep pace with the accelerating 'AI arms race' in financial crime. When asked about the impact of including AI in a compliance modernization program, 88% of organizations reported that it significantly or somewhat increases the likelihood of gaining approval and securing resources.\n\n30\n\nin\n\n'\n\nWARNING"
+      }
+    },
+    {
+      "question": "Critically analyse the divergent sanctions strategies of the United States and the European Union regarding Russia and Ukraine in 2026, considering the potential implications of these strategies on international relations and regional stability.",
+      "ideal_response": "In 2026, the sanctions strategies of the United States and the European Union regarding Russia and Ukraine are likely to diverge significantly. The US may pursue a strategy of rolling back sanctions against Russia, contingent upon compliance with any agreements reached. This approach may appease domestic political factions while aiming to stabilise relations with Russia. In contrast, the EU is expected to adopt a more cautious stance, likely delaying the removal of significant sanctions until there is clear evidence of adherence to agreements. This cautious approach reflects a desire to maintain pressure on Russia and support Ukraine amid ongoing tensions. Furthermore, should a Russian victory occur, the EU may continue sanctions to deter future aggression, contrasting with the US's potential inclination to normalise relations. This divergence could lead to a rift between the US and its European allies, complicating collective efforts to ensure long-term regional stability. As detailed on Page [71] in the 'Prospects for Russia and Ukraine in 2026' section, these differing strategies underscore the complexities of international diplomacy in the wake of conflict.",
+      "mark_scheme": [
+        "1 mark for identifying the US's likely strategy of rolling back sanctions with conditions.",
+        "1 mark for explaining the EU's cautious approach towards sanctions removal.",
+        "1 mark for analysing the potential implications of these strategies on international relations.",
+        "1 mark for discussing the impact of a Russian victory on EU sanctions policy.",
+        "1 mark for referencing the source location in the context of the analysis."
+      ],
+      "keywords": [
+        "sanctions",
+        "Russia",
+        "Ukraine",
+        "international relations",
+        "regional stability"
+      ],
+      "explanation": "Understanding the potential sanctions strategies of the US and EU is crucial in the context of financial crime compliance, as these strategies not only influence geopolitical dynamics but also affect the enforcement of sanctions against entities involved in illicit activities. As detailed on Page [71] in the 'Prospects for Russia and Ukraine in 2026' section, the interplay between sanctions and international relations highlights the importance of compliance frameworks in mitigating financial crime risks.",
+      "reference": {
+        "page_numbers": [
+          71
+        ],
+        "section": "Prospects for Russia and Ukraine in 2026",
+        "element_types": [
+          "text"
+        ],
+        "source_snippet": "In the first instance, US sanctions against Russia will likely be rolled back, although probably with a proviso allowing their reimposition if Russia breaches any deal, largely to appease the US's allies and the anti-Russia Republicans in the US Senate. The EU, UK, and others are likely to be more circumspect about removing their most significant sanctions quickly, however, and will wait to see if any agreement holds. In the second scenario, the current approaches of the US, EU, and others will remain broadly the same: the US maintaining but not extending its current measures, other Western authorities continuing to build on the current framework, while also progressing with plans to provide a collateralized loan to Ukraine. It is also possible, though unlikely, that President Trump will make a dramatic move to pressure Russia by utilizing the provisions of the Sanctioning Russia Act (if ever passed - at the end of the year it remained 'pending legislation') to impose new sanctions and tariffs on Russia, as well as tariffs on third countries that import Russian oil. In the final scenario - a decisive end to the war - would also likely encourage the US to quickly roll back its own sanctions on Russia, in an effort to draw a line under the conflict. Once again, other Western allies - especially in Europe - are likely to be more circumspect in their approach, particularly in the event of a Russian victory. Indeed, such an outcome might lead to a significant divergence between the US and its erstwhile partners, with the EU, UK, and Canada seeing the need to continue supporting Ukraine and to contain future Russian aggression through ongoing sanctions."
+      }
+    },
+    {
+      "question": "Critically evaluate the sanctions and measures implemented by the UK government to combat organized immigration crime networks, particularly in relation to migrant smuggling via small boats. Assess their effectiveness in reducing the influx of irregular migrants and discuss the broader implications for UK immigration policy.",
+      "ideal_response": "The UK government has enacted significant sanctions aimed at disrupting organized immigration crime networks, notably through the Global Irregular Migration and Trafficking in Persons Sanctions Regulations introduced in July. This framework designated 25 individuals and entities, including Iraqi and Kurdish smugglers and North African gangs, as key players in the people-smuggling trade. A subsequent round of sanctions in October further targeted enablers like the Krasniqi forgery network. Despite these measures, the Home Office reported a 53% rise in small boat arrivals by September 2024, indicating a troubling ineffectiveness of these sanctions. The lack of immediate impact raises questions about the overall efficacy of the UK's approach to immigration enforcement and the need for a comprehensive strategy that addresses the root causes of irregular migration, as detailed on Page [86] in the 'Organized immigration crime (OIC) and the UK' section.",
+      "mark_scheme": [
+        "1 mark for identifying the key sanctions and measures implemented by the UK government.",
+        "1 mark for explaining the specific individuals and entities targeted by these sanctions.",
+        "1 mark for analysing the reported effectiveness of these measures in reducing small boat arrivals.",
+        "1 mark for discussing the implications of these measures on broader UK immigration policy.",
+        "1 mark for providing a critical perspective on the challenges associated with combating organized immigration crime."
+      ],
+      "keywords": [
+        "sanctions",
+        "migrant smuggling",
+        "irregular migration",
+        "UK immigration policy",
+        "organized crime"
+      ],
+      "explanation": "This topic highlights the complexities of financial crime compliance and the challenges of enforcing sanctions against organized crime networks. As detailed on Page [86] in the 'Organized immigration crime (OIC) and the UK' section, the effectiveness of such measures is critical not only for immediate immigration control but also for shaping long-term policy responses. Understanding these dynamics is essential for compliance officers tasked with navigating the intersections of law enforcement, immigration policy, and financial crime prevention.",
+      "reference": {
+        "page_numbers": [
+          86
+        ],
+        "section": "Organized immigration crime (OIC) and the UK",
+        "element_types": [
+          "text"
+        ],
+        "source_snippet": "Migrant smuggling, typically using small boats across the English Channel, has become one of the most controversial political issues in the UK over recent years. In January, then UK Foreign Secretary David Lammy announced that, as part of its response, the UK would create a dedicated sanctions regime to disrupt the criminal networks involved. In July, new measures, the Global Irregular Migration and Trafficking in Persons Sanctions Regulations, were introduced and swiftly put into action. On 23 July, the government designated 25 individuals and entities which it claimed were 'at the heart of people-smuggling networks that drive irregular migration to the UK.' Those sanctioned included: Iraqi and Kurdish smugglers; Hawala providers accused of enabling illicit payments linked to the smuggling; North African gangs operating in the Balkans and controlling people smuggling routes between North Africa and the EU; several Balkans organized crime bosses; document fraud networks based in Montenegro; and a Chinese inflatable boat manufacturer, alleged to advertise its products 'explicitly for people-smuggling.' A second round of designations followed in October, scheduled to align with the Western Balkans Summit in London, and designated key enablers of the people smuggling trade, including the Kosovo-linked Krasniqi forgery network, the ALPA illicit finance network, including two of its senior managers, and Nusret Seferović, a Croatian organized criminal whose group supplies other criminals with false Croatian passports. Whether these measures would have their intended effect, of course, remained to be seen. Still, there were few indications of an immediate impact, with the UK Home Office reporting that, at the end of September, small boat arrivals had risen by 53% compared with the previous year ending in September 2024, close to an earlier peak in 2022."
+      }
+    },
+    {
+      "question": "Critically analyse the measures implemented by the United States against human trafficking and migrant smuggling organisations, discussing their effectiveness and the broader implications for international cooperation in combating these crimes.",
+      "ideal_response": "The United States has taken significant steps to combat human trafficking and migrant smuggling organisations, particularly through the designation of key figures and networks. For instance, in March, Jumilca Sandivel Hernández Pérez, the alleged leader of the Lopez Human Smuggling Organization, was designated, followed by the targeting of the Bhardwaj Human Smuggling Organization in October, which was led by Vikrant Bhardwaj. These actions, which included the designation of 16 associated businesses, illustrate a robust approach to dismantling these criminal networks. The US focus on these issues is underscored by survey data indicating that 18% of US-based organisations prioritised human trafficking and migrant smuggling in their efforts in 2025. This heightened emphasis contrasts with the priorities of other jurisdictions, suggesting a unique commitment by the US to address these crimes. However, the effectiveness of such measures relies heavily on international cooperation, as human trafficking and smuggling are transnational issues that require collaborative efforts for comprehensive solutions. As detailed on Page [82, 83] in the 'The US and 'Narco-Terrorism'' section, the US's proactive stance may serve as a model for other nations, fostering a more unified global response to these pressing challenges.",
+      "mark_scheme": [
+        "1 mark for identifying the key figures and organisations targeted by the US, such as Jumilca Sandivel Hernández Pérez and Vikrant Bhardwaj.",
+        "1 mark for explaining the significance of these designations in the context of combating human trafficking and migrant smuggling.",
+        "1 mark for discussing the percentage of US organisations prioritising these issues and comparing it to other jurisdictions.",
+        "1 mark for analysing the importance of international cooperation in addressing transnational human trafficking and smuggling.",
+        "1 mark for evaluating the broader implications of US measures for global compliance and financial crime strategies."
+      ],
+      "keywords": [
+        "human trafficking",
+        "migrant smuggling",
+        "designations",
+        "international cooperation",
+        "US measures"
+      ],
+      "explanation": "This topic highlights the critical role of the United States in addressing human trafficking and migrant smuggling, as outlined on Page [82, 83] in the 'The US and 'Narco-Terrorism'' section. The measures taken by the US not only reflect a commitment to combat these crimes domestically but also underscore the necessity for international collaboration in tackling transnational criminal networks. Understanding these dynamics is essential for compliance professionals, as they navigate the complexities of financial crime and the importance of global partnerships in enforcement efforts.",
+      "reference": {
+        "page_numbers": [
+          82,
+          83
+        ],
+        "section": "The US and 'Narco-Terrorism'",
+        "element_types": [
+          "text"
+        ],
+        "source_snippet": "One further significant area of action for the US in the Americas was against human trafficking and illegal migration networks. In March, it designated Jumilca Sandivel Hernández Pérez, the Mexico-based alleged head of a Guatemalan group, the Lopez Human Smuggling Organization, and in October, the Bhardwaj Human Smuggling Organization based in Cancún, Mexico, along with its senior leadership, and 16 linked businesses. According to the US Treasury, the network, led by dual Indian Mexican national Vikrant Bhardwaj, smuggled illegal migrants from Europe, the Middle East, South America, and Asia into the US using an extensive transport and logistical chain that included the use of yachts and marinas.\n\nThis heightened US focus on human trafficking and migrant smuggling is notable when compared to the priorities of other countries. Our survey data shows that 18% of US-based organizations ranked human trafficking and migrant smuggling as one of their top three criminal activities they focused time and resources on in 2025.\n\nin\n\nThis focus is significantly higher than that reported by respondents in other major jurisdictions, including:"
+      }
+    },
+    {
+      "question": "In light of the unpredictable geopolitical landscape, critically analyse the key factors that firms must monitor to effectively navigate potential conflicts in high-risk regions, providing detailed explanations of their implications for business operations.",
+      "ideal_response": "Firms must closely monitor several key factors to navigate potential geopolitical conflicts effectively. Firstly, ongoing tensions in regions such as Europe, the Middle East, and East Asia require vigilance, as these can escalate into significant conflicts impacting supply chains and market stability. Secondly, political statements and actions from influential leaders, exemplified by President Trump's comments on Greenland and Canada, can signal shifts in geopolitical dynamics that may affect trade agreements and international relations. Thirdly, the effectiveness of peace initiatives must be tracked, as successful resolutions can foster stability, while failures may lead to renewed hostilities. Additionally, firms should remain alert to unexpected developments, as the unpredictable nature of global events can disrupt business operations. As detailed on Page [96] in the 'What does this mean for my firm?' section, a proactive approach to monitoring these factors is crucial for minimising risks and ensuring organisational resilience in a volatile geopolitical environment.",
+      "mark_scheme": [
+        "1 mark for identifying ongoing tensions in high-risk regions and their potential impact on business operations.",
+        "1 mark for discussing the significance of political statements and actions from leaders and their implications for geopolitical dynamics.",
+        "1 mark for explaining the importance of monitoring peace initiatives and their effectiveness in influencing regional stability.",
+        "1 mark for highlighting the necessity of remaining alert to unexpected geopolitical developments and their potential disruptions.",
+        "1 mark for integrating references to the source location, specifically Page [96] in the context of compliance and risk management."
+      ],
+      "keywords": [
+        "geopolitical tensions",
+        "political statements",
+        "peace initiatives",
+        "unexpected developments",
+        "business operations"
+      ],
+      "explanation": "Understanding the complexities of geopolitical risks is vital for firms operating in high-risk regions. As detailed on Page [96] in the 'What does this mean for my firm?' section, monitoring geopolitical tensions, political statements, peace initiatives, and unexpected developments allows firms to anticipate potential disruptions and strategise accordingly. This proactive approach not only aids in compliance with financial crime regulations but also enhances overall organisational resilience in the face of uncertainty.",
+      "reference": {
+        "page_numbers": [
+          96
+        ],
+        "section": "What does this mean for my firm?",
+        "element_types": [
+          "text"
+        ],
+        "source_snippet": "As the last five years have shown, making geopolitical predictions can feel like an exercise in futility. The course of history continues to surprise us, and 2026 is as likely to do so as 2025. Based on current trends, even if some wars are partially resolved through the peace initiatives of President Trump and others, tensions in Europe, the Middle East, Latin America, sub-Saharan Africa, and East Asia will persist. Indeed, it is highly plausible that some of them will erupt into conflict. Which, however, is impossible to say; in the world as it now is, the unexpected can arrive quickly. President Trump made various comments throughout 2025 about the US's need to buy (or even annex) Greenland from Denmark, and suggesting that Canada should join the US for its own security. While some have seen these statements as little more than idle musings from President Trump, there is every chance he might seek to act upon them in 2026 (indeed, in the case of Greenland that increasingly seemed the case in early January). Businesses must therefore remain vigilant about developments in high-risk regions, particularly those to which they are exposed."
+      }
+    },
+    {
+      "question": "In the context of evolving AI regulations and the imperative for innovation, critically analyse the steps firms must undertake to ensure compliance while effectively managing the risks of algorithmic bias in their AML/CFT systems.",
+      "ideal_response": "To ensure compliance with AI regulations while fostering innovation, firms must first seek expertise in AI regulation, governance, and risk management to navigate applicable laws and standards. Establishing stringent, auditable controls is crucial, particularly in jurisdictions with limited regulatory guidance, to balance the desire for innovation with necessary compliance measures. Furthermore, firms must possess a comprehensive understanding of the data utilised for training AI models, ensuring transparency in how these models function. Robust testing of AI-enabled solutions is essential to validate their efficacy and compliance with regulations. Lastly, adopting a human-in-the-loop approach allows firms to identify and mitigate algorithmic bias, ensuring that automated decisions, particularly those concerning ML/TF risks, are reviewed and justified. By implementing these steps, firms can successfully navigate the regulatory landscape while promoting ethical AI practices.",
+      "mark_scheme": [
+        "1 mark for identifying the need for expertise in AI regulation and risk management.",
+        "1 mark for explaining the importance of establishing stringent, auditable controls.",
+        "1 mark for detailing the necessity of understanding the data used in AI models.",
+        "1 mark for discussing the requirement for robust testing of AI solutions.",
+        "1 mark for highlighting the human-in-the-loop approach to mitigate algorithmic bias."
+      ],
+      "keywords": [
+        "AI regulation",
+        "algorithmic bias",
+        "auditable controls",
+        "robust testing",
+        "human-in-the-loop"
+      ],
+      "explanation": "As detailed on Page [132] in the 'What does this mean for my firm?' section, firms must navigate the complexities of AI regulations while maintaining a commitment to innovation. This involves a multifaceted approach that includes understanding regulatory requirements, implementing stringent controls, and ensuring ethical AI practices to prevent algorithmic bias. Such measures are critical in the fight against financial crime, particularly in the context of AML/CFT systems.",
+      "reference": {
+        "page_numbers": [
+          132
+        ],
+        "section": "What does this mean for my firm?",
+        "element_types": [
+          "text"
+        ],
+        "source_snippet": "Firms should seek out the right level of expertise in AI regulation, governance, and risk management to identify and comply with applicable touchpoints between AI-enabled AML/CFT systems and controls, as well as relevant AI laws and standards, including data privacy and algorithmic decision-making.\n\nFirms must actively manage the tension between their desire for innovation and the emerging regulatory patchwork. While the industry favors an innovationfirst approach, the onus is on firms to establish their own stringent, auditable controls ahead of prescriptive governmental regulation, especially in jurisdictions where guidance is currently limited.\n\nAlthough AI is seen as a beacon of efficiency and cost savings, firms must ensure that they understand the type of data used to train AI models, explain how the model works, and conduct robust testing when implementing an AI-enabled solution. Firms should also adopt a human-in-the-loop approach to identify and prevent algorithmic bias, and to review, validate, and explain automated decisions made to not offer accounts and products due to ML/TF concerns.\n\nFirms should also consider adopting best practice around AI, including:\n\n'"
+      }
+    },
+    {
+      "question": "Analyse the mechanisms through which authorised push payment (APP) fraud occurs, focusing on the psychological factors that lead individuals to trust fraudulent counterparts, and evaluate the implications of this type of fraud on consumer behaviour and financial institutions.",
+      "ideal_response": "Authorised push payment (APP) fraud occurs when individuals mistakenly believe they are engaging in legitimate transactions with trusted entities, such as banks or acquaintances. This trust is often cultivated through social engineering tactics, where fraudsters impersonate credible sources to gain the victim's confidence. Once the victim authorises the payment, it is deemed legitimate and irreversible, complicating recovery efforts. The significant consumer losses, amounting to £365.7 million in 2024 alone, highlight the vulnerability of individuals to such scams. Furthermore, as detailed on Page [23] in the 'Authorized push payment fraud' section, the rise in online transactions exacerbates this issue, necessitating enhanced consumer education and robust fraud prevention measures from financial institutions to mitigate risks and protect consumers.",
+      "mark_scheme": [
+        "1 mark for analysing the mechanisms of APP fraud, including the role of trust and social engineering.",
+        "1 mark for discussing the psychological factors that lead individuals to authorise payments to fraudulent counterparts.",
+        "1 mark for evaluating the implications of APP fraud on consumer behaviour and financial losses.",
+        "1 mark for referencing specific statistics or data, such as the £365.7 million in consumer losses from 2024.",
+        "1 mark for incorporating a reference to the source location, specifically Page [23] in the 'Authorized push payment fraud' section."
+      ],
+      "keywords": [
+        "APP fraud",
+        "social engineering",
+        "consumer losses",
+        "trust",
+        "financial institutions"
+      ],
+      "explanation": "Understanding APP fraud is crucial for financial crime compliance, as it highlights the intersection of psychology and technology in fraud prevention. As detailed on Page [23] in the 'Authorized push payment fraud' section, the growing prevalence of this type of fraud underscores the need for comprehensive strategies to educate consumers and enhance the protective measures employed by financial institutions.",
+      "reference": {
+        "page_numbers": [
+          23
+        ],
+        "section": "Authorized push payment fraud",
+        "element_types": [
+          "text"
+        ],
+        "source_snippet": "Authorized push payment (APP) fraud occurs when individuals mistakenly believe they are making a payment to a trusted counterparty, such as their bank, a government agency, a business, or even a family member or friend, and willingly proceed with the transfer. To all intents and purposes, the payment seems legitimate. By the time the transfer reaches the receiving account, it is considered 'authorized' and often appears indistinguishable from any other payment. UK Finance's 2025 Fraud Report stated that there were £450.7 million in UK APP losses in 2024, of which £365.7 million were consumer-specific. Although the number of APP cases had dropped by approximately 20% year-on-year, they still represented a significant proportion of individual losses. Data from UK Finance for the first half of 2025 also showed £629 million in fraud losses, of which £257.5 million came from APP fraud - two-thirds of which were initiated online, and 16% via phone. This marked an 8% decline in the number of cases from the same period in\n\n2024, but a 12% rise in losses. Although the UK is among the few jurisdictions to produce consolidated figures on the prevalence of APP fraud, reporting suggests it is also causing significant and growing problems in major markets across the Americas and Asia."
+      }
+    },
+    {
+      "question": "Critically analyse the differences in focus and content of the 'General' section across various document types, such as reports and articles, and discuss the implications of these differences for effective communication and reader engagement.",
+      "ideal_response": "The 'General' section serves distinct functions in reports and articles, reflecting their differing objectives. In reports, this section typically outlines the document's purpose, methodology, and key findings, thereby prioritising structured information and clarity. For instance, a financial compliance report might detail the processes employed to analyse data, ensuring transparency and facilitating informed decision-making. Conversely, articles tend to focus on broader themes and narrative elements, aiming to engage readers through a more informal tone. This approach may include storytelling techniques that resonate with the audience, making complex topics more accessible. Thus, while reports are designed for precision and detail, articles prioritise reader engagement and thematic exploration. Understanding these differences, as highlighted on Page [1] in the 'General' section, is crucial for tailoring communication strategies to effectively reach and inform diverse audiences.",
+      "mark_scheme": [
+        "1 mark for identifying the distinct functions of the 'General' section in reports and articles.",
+        "1 mark for explaining the focus on structured information and clarity in reports.",
+        "1 mark for discussing the emphasis on narrative and reader engagement in articles.",
+        "1 mark for providing examples to illustrate the differences in content and focus.",
+        "1 mark for referencing the implications of these differences for effective communication."
+      ],
+      "keywords": [
+        "structured information",
+        "reader engagement",
+        "narrative elements",
+        "clarity",
+        "thematic exploration"
+      ],
+      "explanation": "As detailed on Page [1] in the 'General' section, understanding the distinct purposes of reports and articles is essential for effective communication in financial crime compliance. Reports necessitate precision to convey critical information clearly, while articles leverage storytelling to engage and inform a broader audience, highlighting the importance of adapting communication strategies to meet diverse reader needs.",
+      "reference": {
+        "page_numbers": [
+          1
+        ],
+        "section": "General",
+        "element_types": [
+          "text"
+        ],
+        "source_snippet": "THE"
+      }
+    }
+  ]
+}
