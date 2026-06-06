@@ -1,17 +1,15 @@
-# RAG Quiz Builder
+# PyData AI-Generated Quiz
 
-An AI-powered quiz application that turns dense PDF documents into interactive learning tools. It parses source material with high-fidelity OCR, generates multiple-choice and long-form questions using a RAG pipeline, and serves a reactive quiz UI with real-time semantic grading.
+A demo project built for **PyData London 2026** that turns a dense PDF document into an interactive quiz using a three-stage AI pipeline. The bundled example uses the [ComplyAdvantage State of Financial Crime 2026 report](https://www.complyadvantage.com/resource/state-of-financial-crime-2026/) as its source document, but the pipeline works with any PDF.
 
 ## How it works
 
-1. **Parse** — IBM Docling converts a PDF into semantically chunked text, preserving page numbers and headings.
-2. **Generate** — DeepEval's Synthesizer produces raw question–answer pairs from the chunks, which are then shaped into structured MCQ and long-form questions via Jinja2 prompt templates.
-3. **Quiz** — A Marimo reactive notebook serves the quiz in two modes:
-   - **Easy** — multiple-choice with immediate correctness feedback.
-   - **Expert** — free-text answers graded in real time by an OpenAI-backed semantic judge.
-   - An **i-RAG** evidence popup opens the source PDF to the exact page that informed each question.
-
-Detailed flow diagrams for each phase are included in the step-by-step guide below.
+1. **Parse** — IBM Docling converts a PDF into semantically chunked text, walking the document's own heading hierarchy to keep tables, lists, and paragraphs together under their logical sections. Each chunk carries its page number and section header as metadata.
+2. **Generate** — DeepEval's Synthesiser produces raw question–answer pairs from the chunks. A two-stage post-processing step (Jinja2 prompt templates + OpenAI JSON mode) shapes these into structured MCQ and long-form questions, with source coordinates baked into every question.
+3. **Quiz** — Two Marimo reactive apps serve the quiz:
+   - **Easy mode** (`apps/quiz_mcq.py`) — multiple-choice with immediate correctness feedback.
+   - **Expert mode** (`apps/quiz_expert.py`) — free-text answers graded in real time by an OpenAI-backed semantic judge against a structured mark scheme.
+   - Both modes include an **i-RAG evidence popup** that opens the source PDF to the exact page that informed each question.
 
 ---
 
@@ -26,8 +24,8 @@ Detailed flow diagrams for each phase are included in the step-by-step guide bel
 ### Install
 
 ```bash
-git clone <repo-url>
-cd rag_quizzer
+git clone https://github.com/Cadarn/PyData-AI-Generated-Quiz.git
+cd PyData-AI-Generated-Quiz
 uv sync
 ```
 
@@ -43,17 +41,23 @@ OPENAI_API_KEY=sk-...
 
 ## Quickstart
 
-Place your PDF in `data/documents/`, then run the full pipeline:
+The repo includes pre-generated questions from the SoFC 2026 report so you can run the quiz immediately without an API call:
 
 ```bash
-# 1. Generate questions from the document
-python scripts/generate_quiz.py --pdf data/documents/your_document.pdf
+# Easy mode — multiple choice
+marimo run apps/quiz_mcq.py
 
-# 2. Launch the quiz app
-marimo run main.py
+# Expert mode — free-text with live grading
+marimo run apps/quiz_expert.py
 ```
 
-Open the URL printed by Marimo in your browser. To edit the notebook itself, use `marimo edit main.py` instead.
+To generate questions from your own PDF:
+
+```bash
+python scripts/generate_quiz.py --pdf data/documents/your_document.pdf
+```
+
+Then relaunch either app — it picks up the new `quiz_questions.json` automatically.
 
 ---
 
@@ -61,7 +65,7 @@ Open the URL printed by Marimo in your browser. To edit the notebook itself, use
 
 ### 1. Parse a document
 
-The parser converts a PDF to Markdown and JSON and saves both to `data/parsed/`. Parsing enables OCR and table structure recognition by default.
+The parser converts a PDF to Markdown and JSON, saving both to `data/parsed/`. OCR and table structure recognition are enabled by default.
 
 ```mermaid
 flowchart TD
@@ -70,7 +74,7 @@ flowchart TD
     C --> D[Converted Document Object]
     D --> E[Export to Markdown]
     D --> F[Export to JSON]
-    D --> G[get_semantic_chunks\nRecursiveCharacterTextSplitter]
+    D --> G[get_semantic_chunks]
     E --> H[(data/parsed/*.md)]
     F --> I[(data/parsed/*.json)]
     G --> J[Chunks\ntext · page_numbers · header\nelement_types · source_snippet]
@@ -80,7 +84,7 @@ flowchart TD
 python scripts/parse_guide.py
 ```
 
-> **Note:** `parse_guide.py` currently uses a hardcoded path (`data/documents/SoFC26_Guide.pdf`). Edit the `pdf_path` variable at the top of the script to point at your document, or use the parser directly from Python:
+> **Note:** `parse_guide.py` has a hardcoded path (`data/documents/SoFC26_Guide.pdf`). Edit `pdf_path` at the top of the script for a different document, or use the parser directly:
 
 ```python
 from ai_quizzer.pdf_parser import PDFParser
@@ -91,12 +95,11 @@ saved = parser.parse_and_save(
     pdf_path=Path("data/documents/your_document.pdf"),
     output_dir=Path("data/parsed"),
 )
-print(saved)  # {'markdown': ..., 'json': ...}
 ```
 
 ### 2. Generate questions
 
-Question generation parses the PDF, synthesises raw QA pairs, and writes structured questions to the output path configured in `quiz_config.yaml` (default: `data/generated/quiz_questions.json`).
+Question generation parses the PDF, synthesises raw QA pairs via DeepEval, and writes structured questions to `data/generated/quiz_questions.json`.
 
 ```mermaid
 flowchart TD
@@ -106,7 +109,7 @@ flowchart TD
     D --> E[Semantic chunks\nwith page & header metadata]
     E --> F[Evenly distributed\nchunk selection]
     F --> G[DeepEval Synthesizer\ngpt-4o-mini]
-    G --> H[Raw QA goldens\nquestion · expected answer · context]
+    G --> H[Raw QA pairs\nquestion · expected answer · context]
     H --> I{Split by type}
     I --> |first N| J[MCQ goldens]
     I --> |next M| K[Long-form goldens]
@@ -137,22 +140,21 @@ python scripts/generate_quiz.py --pdf data/documents/your_document.pdf --mcqs 10
 | `--mcqs` | from config | Override number of MCQ questions |
 | `--lf` | from config | Override number of long-form questions |
 
-### 3. Run the quiz app
+### 3. Run the quiz
 
 ```mermaid
 flowchart TD
-    A[(quiz_questions.json)] --> B[Marimo app startup\nmain.py]
+    A[(quiz_questions.json)] --> B[Marimo app startup]
     B --> C[QuizState initialised\nquestion list · score · history]
-    C --> D{Mode toggle}
 
-    subgraph easy [Easy Mode — MCQ]
+    subgraph easy [Easy Mode — apps/quiz_mcq.py]
         E[Display question\n+ 4 answer options]
         F[User selects option]
         G[submit_answer\nsynchronous correctness check]
         H[Score +1 if correct\nShow explanation]
     end
 
-    subgraph expert [Expert Mode — Free-text]
+    subgraph expert [Expert Mode — apps/quiz_expert.py]
         I[Display question\n+ text area]
         J[User types answer]
         K[submit_answer\nbuffer text]
@@ -161,9 +163,9 @@ flowchart TD
         N[Score += marks\nShow mark scheme feedback]
     end
 
-    D --> |Easy| E
+    C --> E
     E --> F --> G --> H
-    D --> |Expert| I
+    C --> I
     I --> J --> K --> L --> M --> N
 
     H --> irag[i-RAG evidence popup\nopen source PDF to cited page]
@@ -172,19 +174,19 @@ flowchart TD
     H --> nxt[Next question]
     N --> nxt
     nxt --> fin{Quiz complete?}
-    fin --> |No| C
     fin --> |Yes| R[Results summary\nfinal score]
+    fin --> |No| C
 ```
 
 ```bash
-# Serve the quiz (read-only, production-style)
-marimo run main.py
+# Easy mode — multiple choice with instant feedback
+marimo run apps/quiz_mcq.py
 
-# Open the interactive notebook editor
-marimo edit main.py
+# Expert mode — free-text with live AI grading
+marimo run apps/quiz_expert.py
 ```
 
-The app loads `data/generated/quiz_questions.json` at startup. Toggle between **Easy** (MCQ) and **Expert** (free-text) modes using the control at the top of the page.
+Both apps load `data/generated/quiz_questions.json` at startup. If the file is missing, they fall back to a set of built-in example questions so the app is always runnable.
 
 ---
 
@@ -194,43 +196,71 @@ All generation behaviour is controlled by `quiz_config.yaml`:
 
 ```yaml
 model_name: "gpt-4o-mini"          # OpenAI model used for generation and grading
-output_path: "data/generated/quiz_questions.json"  # Where generated questions are saved
+output_path: "data/generated/quiz_questions.json"
+pdf_path: "data/documents/SoFC26_Guide.pdf"
 
 question_types:
   mcq:
-    count: 20                       # Number of multiple-choice questions to generate
-    distractor_count: 3             # Number of incorrect answer options per question
+    count: 20                       # Number of multiple-choice questions
+    distractor_count: 3             # Number of incorrect options per question
 
   long_form:
-    count: 10                       # Number of long-form questions to generate
+    count: 10                       # Number of long-form questions
     max_marks: 5                    # Maximum marks awarded by the live judge
     target_length_min: 50           # Minimum expected answer length (words)
     target_length_max: 200          # Maximum expected answer length (words)
     rubric_detail: "concise"        # Grading rubric verbosity: "concise" or "detailed"
 ```
 
-**Cost note:** Each generation run makes multiple OpenAI API calls. Reduce `count` values for faster, cheaper runs during development.
+**Cost note:** Each generation run makes multiple OpenAI API calls. Use `--mcqs 5 --lf 2` for quick test runs.
 
 ---
 
 ## Project structure
 
 ```
-ai_quizzer/          # Core library
-  pdf_parser.py      # PDFParser — Docling-based parsing and chunking
-  question_generator.py  # QuestionGenerator — synthesis and post-processing
-  quiz_logic.py      # QuizState — session state dataclass
-  prompts/           # Jinja2 prompt templates
+ai_quizzer/               # Core library
+  pdf_parser.py           # PDFParser — Docling-based parsing and semantic chunking
+  question_generator.py   # QuestionGenerator — synthesis and post-processing pipeline
+  quiz_logic.py           # QuizState — session state dataclass
+  quiz_data.py            # Question loader with fallback examples
+  grader.py               # Live judge — OpenAI-backed rubric grader
+  prompts/                # Jinja2 prompt templates
+    mcq_post_process.jinja
+    long_form_post_process.jinja
+    live_judge.jinja
+    style_guide.jinja     # Shared style rules included by all templates
+
+apps/
+  quiz_mcq.py             # Easy mode Marimo app
+  quiz_expert.py          # Expert mode Marimo app
 
 scripts/
-  generate_quiz.py   # CLI entry point for question generation
-  parse_guide.py     # Standalone PDF parsing utility
+  generate_quiz.py        # CLI entry point for question generation
+  parse_guide.py          # Standalone PDF parsing utility
+  inspect_document.py     # Debug utility — prints Docling document tree
+  localize_existing_quiz.py  # Post-processing script to enforce British English
 
 data/
-  documents/         # Source PDFs (not committed)
-  parsed/            # Docling output (Markdown + JSON)
-  generated/         # quiz_questions.json
+  documents/              # Source PDFs
+  parsed/                 # Docling output (Markdown + JSON)
+  generated/              # quiz_questions.json
 
-main.py              # Marimo quiz application
-quiz_config.yaml     # Generation configuration
+docs/
+  pdf_model_pop.md        # Lessons learned: Marimo PDF modal patterns
+
+tests/                    # pytest test suite
+quiz_config.yaml          # Generation configuration
 ```
+
+---
+
+## Key technical decisions
+
+**Structure-aware chunking over character splitting** — `PDFParser.get_semantic_chunks()` walks Docling's document node tree and accumulates content under section headers rather than splitting on character count. This keeps tables and lists together with their context and produces significantly better question quality.
+
+**Two-stage question generation** — The DeepEval Synthesiser anchors a factual QA pair (Stage 1); a separate Jinja2-templated OpenAI call shapes it into the target schema with plausible distractors and source citations (Stage 2). Separating fact from format makes each stage independently debuggable and iterable.
+
+**i-RAG at generation time** — Rather than retrieving evidence at query time via a vector store, source coordinates (`page_numbers`, `section`, `source_snippet`) are embedded into every question during generation. The evidence popup is a simple JSON read — no Chroma or embedding infrastructure needed.
+
+**LLM-as-judge with structured rubrics** — Expert mode grades free-text answers against a per-criterion mark scheme (one sentence = one mark). This gives consistent, auditable scores with natural-language rationale, which keyword matching or Levenshtein distance cannot provide.
