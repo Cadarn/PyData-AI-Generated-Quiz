@@ -48,7 +48,8 @@ def _(CSS, mo):
 @app.cell
 def _(load_config, load_quiz_questions):
     config = load_config()
-    _, lf_questions = load_quiz_questions()
+    lf_count = config.get("question_types", {}).get("long_form", {}).get("quiz_count")
+    _, lf_questions = load_quiz_questions(lf_count=lf_count)
     pdf_path = config.get("pdf_path", "data/documents/SoFC26_Guide.pdf")
     return lf_questions, pdf_path
 
@@ -194,13 +195,14 @@ def _(
             placeholder="Write your comprehensive answer here, address all the points of the question.",
             disabled=state.is_submitted,
             rows=7,
+            full_width=True,
         )
         if state.is_submitted:
             text_area_kwargs["value"] = state.selected_answer or ""
 
         answer_input = mo.ui.text_area(**text_area_kwargs)
 
-        async def submit_and_grade(_):
+        def submit_and_grade(_):
             val = answer_input.value.strip()
             if not val:
                 return
@@ -208,20 +210,23 @@ def _(
             state.submit_answer()
             set_state(state.copy())  # Render "thinking" state immediately
 
-            loop = asyncio.get_running_loop()
-            eval_res = await loop.run_in_executor(None, lambda: run_live_judge(
-                question=current_q["question"],
-                ideal_response=current_q.get("ideal_response", ""),
-                mark_scheme=current_q.get("mark_scheme", []),
-                keywords=current_q.get("keywords", []),
-                user_answer=val,
-            ))
-            state.set_grading_result(
-                score=eval_res.get("score", 0.0),
-                reasoning=eval_res.get("reasoning", ""),
-                marks_awarded=eval_res.get("marks_awarded", 0),
-            )
-            set_state(state.copy())
+            async def do_grading():
+                loop = asyncio.get_running_loop()
+                eval_res = await loop.run_in_executor(None, lambda: run_live_judge(
+                    question=current_q["question"],
+                    ideal_response=current_q.get("ideal_response", ""),
+                    mark_scheme=current_q.get("mark_scheme", []),
+                    keywords=current_q.get("keywords", []),
+                    user_answer=val,
+                ))
+                state.set_grading_result(
+                    score=eval_res.get("score", 0.0),
+                    reasoning=eval_res.get("reasoning", ""),
+                    marks_awarded=eval_res.get("marks_awarded", 0),
+                )
+                set_state(state.copy())
+
+            asyncio.ensure_future(do_grading())
 
         submit_btn = mo.ui.button(
             label="Submit Answer 📤",
@@ -277,9 +282,9 @@ def _(
         elif state.is_submitted and grading is None:
             callout_kind = "info"
             explanation_box = mo.md(
-                "### ⏳ Grading your answer...\n"
+                "**Grading your answer...**\n\n"
                 "*The AI judge is reviewing your response against the mark scheme. "
-                "This usually takes 5–15 seconds.*"
+                "Usually 5–15 seconds.*"
             ).callout(kind="info")
 
         else:
@@ -290,7 +295,7 @@ def _(
         show_next = state.is_submitted and grading is not None
 
         if is_grading:
-            button_panel = mo.md("*⏳ Grading in progress — please wait...*")
+            button_panel = mo.md("*Grading in progress — please wait...*")
         elif show_next:
             button_panel = mo.hstack([submit_btn, next_btn], justify="start", gap=2)
         else:

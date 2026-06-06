@@ -5,10 +5,12 @@ pdf_path: "data/documents/SoFC26_Guide.pdf"
 
 question_types:
   mcq:
-    count: 20  # Keeping counts realistic to avoid high API usage / timeouts
+    count: 20         # Number of questions to generate
+    quiz_count: 5     # Number of questions to sample for the quiz (≤ count); seed fixed at 42
     distractor_count: 3
   long_form:
-    count: 10
+    count: 10         # Number of questions to generate
+    quiz_count: 5     # Number of questions to sample for the quiz (≤ count); seed fixed at 42
     max_marks: 5
     target_length_min: 50       # words
     target_length_max: 200      # words

@@ -1,4 +1,5 @@
 import json
+import random
 import yaml
 from pathlib import Path
 
@@ -89,8 +90,14 @@ FALLBACK_LONG_FORM = [
 
 def load_quiz_questions(
     questions_path: str | Path = "data/generated/quiz_questions.json",
+    mcq_count: int | None = None,
+    lf_count: int | None = None,
 ) -> tuple[list[dict], list[dict]]:
-    """Load MCQ and long-form questions, falling back to defaults if the file is missing or empty."""
+    """Load MCQ and long-form questions, falling back to defaults if the file is missing or empty.
+
+    If mcq_count or lf_count are given, a reproducible random sample (seed=42) of that size is
+    returned rather than the full set.
+    """
     questions_path = Path(questions_path)
     mcqs: list[dict] = []
     lf_questions: list[dict] = []
@@ -104,7 +111,16 @@ def load_quiz_questions(
         except Exception as e:
             print(f"Warning: could not load {questions_path}: {e}")
 
-    return mcqs or FALLBACK_MCQS, lf_questions or FALLBACK_LONG_FORM
+    mcqs = mcqs or FALLBACK_MCQS
+    lf_questions = lf_questions or FALLBACK_LONG_FORM
+
+    rng = random.Random(42)
+    if mcq_count is not None and mcq_count < len(mcqs):
+        mcqs = rng.sample(mcqs, mcq_count)
+    if lf_count is not None and lf_count < len(lf_questions):
+        lf_questions = rng.sample(lf_questions, lf_count)
+
+    return mcqs, lf_questions
 
 
 def load_config(config_path: str | Path = "quiz_config.yaml") -> dict:

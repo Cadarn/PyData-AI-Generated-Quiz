@@ -61,10 +61,18 @@ textarea {
     resize: vertical !important;
 }
 
+/* Marimo renders text_area as a <marimo-text-area> custom element */
+marimo-text-area {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
 /* Target every wrapper layer Marimo places around the textarea */
 div:has(textarea),
 div:has(> textarea),
-div:has(> div > textarea) {
+div:has(> div > textarea),
+div:has(marimo-text-area) {
     width: 100% !important;
     max-width: 100% !important;
     min-width: 0 !important;
