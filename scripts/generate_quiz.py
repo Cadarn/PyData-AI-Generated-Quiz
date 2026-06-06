@@ -38,7 +38,13 @@ def main():
         default=None,
         help="Override the number of Long-Form questions to generate."
     )
-    
+    parser.add_argument(
+        "--output",
+        type=str,
+        default=None,
+        help="Override the output path for the generated questions JSON (default: from config)."
+    )
+
     args = parser.parse_args()
     pdf_path = Path(args.pdf)
     config_path = Path(args.config)
@@ -61,7 +67,9 @@ def main():
     try:
         # Initialize generator
         generator = QuestionGenerator(config_path=config_path)
-        
+        if args.output:
+            generator.output_path = Path(args.output)
+
         # Run generation
         generator.generate_quiz(
             pdf_path=pdf_path,
