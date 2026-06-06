@@ -13,6 +13,16 @@ A demo project built for **PyData London 2026** that turns a dense PDF document 
 
 ---
 
+## Example dataset
+
+The bundled questions and parsed data are generated from the **ComplyAdvantage State of Financial Crime 2026** report. The full report is freely available at:
+
+> https://get.complyadvantage.com/insights/the-state-of-financial-crime-2026
+
+This document is used here as a demonstration of the pipeline on a real-world, complex, long-form PDF. It remains the copyright material of ComplyAdvantage. If you intend to redistribute the parsed output or generated questions, please refer to ComplyAdvantage's terms of use.
+
+---
+
 ## Setup
 
 ### Prerequisites
