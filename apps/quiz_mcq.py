@@ -36,7 +36,10 @@ def _(CSS, mo):
 def _(load_config, load_quiz_questions):
     config = load_config()
     mcq_count = config.get("question_types", {}).get("mcq", {}).get("quiz_count")
-    mcqs, _ = load_quiz_questions(mcq_count=mcq_count)
+    mcqs, _ = load_quiz_questions(
+        questions_path=config.get("output_path", "data/generated/quiz_questions.json"),
+        mcq_count=mcq_count,
+    )
     pdf_path = config.get("pdf_path", "data/documents/SoFC26_Guide.pdf")
     return mcqs, pdf_path
 

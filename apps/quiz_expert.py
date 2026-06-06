@@ -49,7 +49,10 @@ def _(CSS, mo):
 def _(load_config, load_quiz_questions):
     config = load_config()
     lf_count = config.get("question_types", {}).get("long_form", {}).get("quiz_count")
-    _, lf_questions = load_quiz_questions(lf_count=lf_count)
+    _, lf_questions = load_quiz_questions(
+        questions_path=config.get("output_path", "data/generated/quiz_questions.json"),
+        lf_count=lf_count,
+    )
     pdf_path = config.get("pdf_path", "data/documents/SoFC26_Guide.pdf")
     return lf_questions, pdf_path
 
