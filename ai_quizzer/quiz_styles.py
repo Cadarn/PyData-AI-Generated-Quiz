@@ -56,12 +56,19 @@ textarea {
     color: #e6edf3 !important;
     transition: border-color 0.2s ease !important;
     width: 100% !important;
+    max-width: 100% !important;
     box-sizing: border-box !important;
+    resize: vertical !important;
 }
 
-div:has(> textarea) {
+/* Target every wrapper layer Marimo places around the textarea */
+div:has(textarea),
+div:has(> textarea),
+div:has(> div > textarea) {
     width: 100% !important;
+    max-width: 100% !important;
     min-width: 0 !important;
+    box-sizing: border-box !important;
 }
 
 textarea:focus {

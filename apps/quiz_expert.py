@@ -277,19 +277,24 @@ def _(
         elif state.is_submitted and grading is None:
             callout_kind = "info"
             explanation_box = mo.md(
-                "⏳ *Thinking...*"
+                "### ⏳ Grading your answer...\n"
+                "*The AI judge is reviewing your response against the mark scheme. "
+                "This usually takes 5–15 seconds.*"
             ).callout(kind="info")
 
         else:
             callout_kind = "neutral"
             explanation_box = None
 
+        is_grading = state.is_submitted and grading is None
         show_next = state.is_submitted and grading is not None
-        button_panel = mo.hstack(
-            [submit_btn, next_btn] if show_next else [submit_btn],
-            justify="start",
-            gap=2,
-        )
+
+        if is_grading:
+            button_panel = mo.md("*⏳ Grading in progress — please wait...*")
+        elif show_next:
+            button_panel = mo.hstack([submit_btn, next_btn], justify="start", gap=2)
+        else:
+            button_panel = mo.hstack([submit_btn], justify="start", gap=2)
 
         if explanation_box is not None:
             quiz_panel = mo.vstack(
